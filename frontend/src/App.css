@@ -1,0 +1,22 @@
+/* Global styles for the application */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f8e9;
+    /* Background color for the entire app */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Optionally add styles for the TaskManager container */
+.App .TaskManager {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fce4ec;
+    /* Background for TaskManager */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
